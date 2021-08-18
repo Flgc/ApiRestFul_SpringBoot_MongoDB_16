@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
+import biz.fabiotecnico1.apirestfulspringbootmongo26.domain.Post;
 import biz.fabiotecnico1.apirestfulspringbootmongo26.domain.User;
 import biz.fabiotecnico1.apirestfulspringbootmongo26.dto.UserDTO;
 import biz.fabiotecnico1.apirestfulspringbootmongo26.services.UserService;
@@ -61,5 +62,11 @@ public class UserResource {
 		//Data base updated
 		obj = service.update(obj);
 		return ResponseEntity.noContent().build();			
+	}
+	
+	@RequestMapping(value="/{id}/posts", method=RequestMethod.GET)
+	public ResponseEntity<List<Post>> findPost(@PathVariable String id){
+		User obj = service.findById(id);
+		return ResponseEntity.ok().body(obj.getPosts());		
 	}
 }
