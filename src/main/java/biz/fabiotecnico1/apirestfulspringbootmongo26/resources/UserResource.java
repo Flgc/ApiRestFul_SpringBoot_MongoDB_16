@@ -13,8 +13,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import biz.fabiotecnico1.apirestfulspringbootmongo26.UserDTO;
 import biz.fabiotecnico1.apirestfulspringbootmongo26.domain.User;
+import biz.fabiotecnico1.apirestfulspringbootmongo26.dto.UserDTO;
 import biz.fabiotecnico1.apirestfulspringbootmongo26.services.UserService;
 
 @RestController

@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import biz.fabiotecnico1.apirestfulspringbootmongo26.UserDTO;
 import biz.fabiotecnico1.apirestfulspringbootmongo26.domain.User;
+import biz.fabiotecnico1.apirestfulspringbootmongo26.dto.UserDTO;
 import biz.fabiotecnico1.apirestfulspringbootmongo26.repository.UserRepository;
 import biz.fabiotecnico1.apirestfulspringbootmongo26.services.exception.ObjectNotFoundException;
 
