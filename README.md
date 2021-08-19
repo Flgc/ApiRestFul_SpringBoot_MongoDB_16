@@ -73,7 +73,7 @@ cd apirestfulspringbootmongo26
 ./mvnw spring-boot:run
 ```
 
-# 🔧 Json - Postman
+# 🔧 Json para consumo no Postman
 
 # 📲 Contato
 
