@@ -21,7 +21,8 @@
 [**Modelo Conceitual**](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16#-modelo-conceitual) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Modelo em Camadas**](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16#-modelo-em-camadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Tecnologias utilizadas**](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16#-tecnologias-utilizadas) &nbsp;&nbsp;**|**&nbsp;&nbsp;
-[**Como instalar e executar o projeto**](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16/sds2#-como-instalar-e-executar-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Como instalar e executar o projeto**](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16#-como-instalar-e-executar-o-projeto) &nbsp;&nbsp;**|**&nbsp;&nbsp;
+[**Json - Postman**](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16#-json-para-consumo-no-postman) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 [**Contato**](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16#-contato) &nbsp;&nbsp;**|**&nbsp;&nbsp;
 
 </div><br><br>
@@ -41,11 +42,11 @@
 
 ## 🌎 Modelo conceitual
 
-![Modelo Conceitual](![Web 1](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16/aset/conceitual.png))
+![Web 1](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16/blob/main/aset/conceitual.png)
 
 ## 🌎 Modelo em camadas
 
-![Modelo Camadas](![Web 1](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16/aset/camada.png))
+![Web 1](https://github.com/Flgc/ApiRestFul_SpringBoot_MongoDB_16/blob/main/aset/camada.png)
 
 # 🚀 Tecnologias utilizadas
 
@@ -71,6 +72,8 @@ cd apirestfulspringbootmongo26
 # executar o projeto
 ./mvnw spring-boot:run
 ```
+
+# 🔧 Json para consumo no Postman
 
 # 📲 Contato
 
